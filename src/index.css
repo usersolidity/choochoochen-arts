@@ -1,0 +1,275 @@
+body {
+    background-color:rgb(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position-y: -6px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Rock Salt', cursive;
+    font-size: 14px; 
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h5 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main {
+    text-align: center;
+}
+
+
+/* end */
+.logo-title {
+    float: left;
+    margin-left: 5.5%;
+}
+
+.logo-title a {
+    text-decoration: none;
+}
+
+.logo-title a:hover {
+    color:rgb(19, 192, 134);
+}
+
+.menu {
+    margin-top: 2px;
+    float: right;
+    margin-right: 1%;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+.slider {
+    background-color: rgb(161, 27, 27);
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.inner-box {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gallery {
+    background-color: rgba(0, 0, 0, 1.0);
+}
+
+.about-page {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.slider-section {
+    padding: 1.5px;
+    border-radius: 10px;
+}
+
+.left-about {
+    background-color: rgba(37, 37, 37, 1.0);
+    float: left;
+    width: 50%;
+    height:530px;
+}
+
+.left-about img {
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+
+.right-about {
+    background-color: rgb(37, 37, 37);
+    float: right;
+    width: 50%;
+    height: 530px;
+}
+
+.right-text {
+    padding: 10%;
+    text-align: center;
+}
+
+.left-o-paragraph {
+    text-align: left;
+    padding:1%;
+}
+
+.symbols p {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.blurb {
+    background-color: none;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.blurb p {
+    font-size: 14px;
+    text-align: left;
+    color:rgba(255, 255, 255, 0.7)
+}
+
+.gallery-background {
+    background-color:rgba(0, 0, 0);
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px;
+}
+
+.container-for-image {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.gallery-image {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.gallery-image:hover {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    transition: .3s ease;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.overlay { /* unnecessary now */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #000000;
+}
+  
+.container-for-image:hover .overlay{
+    opacity: 0.64;
+
+}
+
+.image-text {
+    color: white;
+    font-size: 18px;
+    font-family:monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-main {
+    overflow: hidden;  
+    background: rgba(10, 10, 12, 0.94); 
+    position: fixed; 
+    width: 100%;
+    height:7%;
+    margin:0px; 
+    top: 0; 
+    left: 0;
+    z-index: 6;
+    display: inline-flex;
+}
+
+.fullsize-photo {
+    width:100%;
+    object-fit:cover;
+}
+
+.modal {
+    background-color:rgb(0, 0, 0);
+    max-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: thin;
+    
+}
+
+.photo-group {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
